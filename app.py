@@ -10,10 +10,10 @@ choice = input("Enter your choice: ")
 if choice == "1":
     username = input("Enter Username: ")
     password = input("Enter Password: ")
-
-    if username == "admin" and password == "1234":
+if username == "admin" and password == "1234":
         print("Login Successful")
     else:
+        print("Invalid Username or Password")
         print("Invalid Username or Password")
 
 elif choice == "2":
