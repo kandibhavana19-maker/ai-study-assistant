@@ -18,7 +18,6 @@ password == "1234":
     else:
         print("Invalid Username or 
 Password")
-        print("Invalid Username or Password")
 
 elif choice == "2":
     print("Add Notes Selected")
