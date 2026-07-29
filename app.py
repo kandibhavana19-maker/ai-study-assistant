@@ -17,7 +17,9 @@ if choice == "1":
         print("Invalid Username or Password")
 
 elif choice == "2":
-    print("Add Notes Selected")
+  
+    note = input("Enter your note: ")
+    print("Note Saved:", note)
 
 elif choice == "3":
     print("View Notes Selected")
